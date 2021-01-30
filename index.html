@@ -31,7 +31,7 @@
 
         <div class="booking-content">
             <h1>Cruise Queen</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book./p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
 
 
@@ -60,7 +60,7 @@
                     <!-- span tag and  id="first-class-cost" is added by me -->
                     <label for="">First Class ($ <span id="first-class-cost">150</span> )</label>
                     <!-- id="first-ticket-no" is added by me -->
-                    <input id="first-ticket-no" class="inp-style inp-width" type="number" value="1">
+                    <input id="first-ticket-no" class="inp-style inp-width" type="text" value="1">
                 </div>
                 <div class="plus-minus-btn">
                     <!-- button tag and id="add-first-class" is added by me -->
@@ -73,7 +73,7 @@
                      <!-- span tag and  id="economy-class-cost" is added by me -->
                     <label for="">Economy ($ <span id="economy-class-cost">100</span> )</label>
                     <!-- id="economy-ticket-no" is added by me -->
-                    <input id="economy-ticket-no" class="inp-style inp-width" type="number" value="1">
+                    <input id="economy-ticket-no" class="inp-style inp-width" type="text" value="1">
                 </div>
                 <div class="plus-minus-btn">
                     <!-- add button tag and  id="add-economy-class" and id="sub-economy-class" is added by me -->
@@ -86,7 +86,8 @@
                         <p>Subtotal</p>
                     </div>
                     <div class="right">
-                        <p>$500</p>
+                        <!-- span tag and id="sub-total" is added by me -->
+                        <p>$ <span id="sub-total">250</span></p>
                     </div>
                 </div>
 
@@ -95,7 +96,8 @@
                         <p>Charge 10% VAT</p>
                     </div>
                     <div class="right">
-                        <p>$50</p>
+                        <!-- span tag and id="vat" is added by me -->
+                        <p>$ <span id="vat">25</span></p>
                     </div>
                 </div>
                 <hr>
@@ -104,11 +106,13 @@
                         <h4>Total</h4>
                     </div>
                     <div class="right">
-                        <p>$550</p>
+                        <!-- span tag and id="total" is added by me -->
+                        <p>$ <span id="total">275</span></p>
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <!--  id="book-btn" is added by me -->
+            <button id="book-btn" class="btn-style">Book Now</button>
         </div>
     </main>
 
