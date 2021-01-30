@@ -123,6 +123,7 @@ nav ul li a:hover, a.active{
     justify-content: space-between;
 }
 /* making large plus button */
-#add-economy-class, #add-first-class{
+#add-economy-class, #add-first-class, #sub-first-class, #sub-economy-class{
     font-size: 20px;
+    width: 20px;
 }
